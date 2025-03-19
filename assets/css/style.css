@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.col-6 {
+  width: 50%;
+}
+.col-12 {
+  width: 100%;
+}
+section {
+  padding: 30px 0;
+}
+/* 1111111111111111111111 */
+.section1 {
+  position: relative;
+  background-color: gray;
+}
+.bg-color1 {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(228, 82, 206);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+section .section1-item1 {
+  height: 350px;
+  background-color: rgba(0, 0, 255, 0.459);
+}
+section .section1-item2 {
+  height: 350px;
+  background-color: rgba(234, 102, 54, 0.763);
+}
+/* 222222222222222222222 */
+.section2 {
+  position: relative;
+  background-color: white;
+}
+.bg-color2 {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(228, 82, 206);
+  position: absolute;
+  bottom: -50px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+section .section2-item1 {
+  height: 350px;
+  background-color: white;
+}
+section .section2-item2 {
+  height: 350px;
+  background-color: rgba(0, 0, 255, 0.459);
+}
+/* 333333333333333333333 */
+.section3 {
+  position: relative;
+  background-color: gray;
+  margin-top: 10px;
+}
+.bg-color3 {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(228, 82, 206);
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+section .section3-item1 {
+  height: 350px;
+  background-color: rgba(0, 0, 255, 0.299);
+}
+section .section3-item2 {
+  height: 350px;
+  background-color: rgba(128, 128, 128, 0.484);
+}
+/* 444444444444444444 */
+.section4 {
+  position: relative;
+  background-color: gray;
+  margin-top: 10px;
+}
+.bg-color4 {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(228, 82, 206);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+section .section4-item1 {
+  height: 350px;
+  background-color: rgba(0, 0, 255, 0.299);
+}
+section .section4-item2 {
+  height: 350px;
+  background-color: rgba(234, 102, 54, 0.763);
+}
+section .section4-item3 {
+  height: 350px;
+  background-color: blue;
+}
